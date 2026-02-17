@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Join International Fest 2K26 at Vignan University on March 20, 2026. Register for entertainment, sports, cultural activities, and more. Presented by VISA.">
+<meta name="keywords" content="international fest, vignan university, cultural event, sports, entertainment, VISA, vadlamudi, andhra pradesh, student fest">
+<meta name="author" content="VISA - Vignan International Students Association">
+
+<!-- Open Graph Meta Tags (Facebook, WhatsApp, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="International Fest 2K26 - Vignan University">
+<meta property="og:description" content="Join the celebration of cultures, fun, music, and sports on March 20, 2026! Register now for entertainment and sports events.">
+<meta property="og:image" content="https://iili.io/fUguOl9.jpg">
+<meta property="og:url" content="https://visafest2k26.netlify.app">
+<meta property="og:site_name" content="International Fest 2K26">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="International Fest 2K26 - Vignan University">
+<meta name="twitter:description" content="Cultures, fun, music, and sports! Join us March 20, 2026 at Vignan University.">
+<meta name="twitter:image" content="https://iili.io/fUguOl9.jpg">
+
+<!-- Favicon using the same logo -->
+<link rel="icon" type="image/jpeg" href="https://iili.io/fUguOl9.jpg">
+<title>International Fest 2k26 - Vignan University</title>
+<style>
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f8f9fa;
+color: #333;
+line-height: 1.6;
+overflow-x: hidden;
+}
+
+header {
+background: linear-gradient(rgba(0, 123, 255, 0.75), rgba(0, 123, 255, 0.75)),
+url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1600') center/cover no-repeat;
+color: white;
+text-align: center;
+padding: 140px 20px 100px;
+background-attachment: fixed;
+position: relative;
+}
+
+.logo-container {
+margin: 0 auto 30px;
+max-width: 240px;
+}
+
+.logo-container img {
+width: 100%;
+height: auto;
+border-radius: 50%;
+box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+background: rgba(255,255,255,0.95);
+padding: 15px;
+border: 4px solid #003366;
+}
+
+header h1 {
+font-size: 4.2rem;
+margin: 10px 0 5px;
+animation: glow 3s infinite alternate;
+}
+
+@keyframes glow {
+from { text-shadow: 0 0 10px #fff; }
+to   { text-shadow: 0 0 35px #00d4ff, 0 0 60px #00d4ff; }
+}
+
+.scroll-down {
+position: absolute;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+animation: bounce 2s infinite;
+}
+
+.arrow-shape {
+background: rgba(255, 255, 255, 0.9);
+padding: 15px 25px;
+border-radius: 10px 10px 10px 10px;
+position: relative;
+box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.arrow-shape::after {
+content: '';
+position: absolute;
+bottom: -15px;
+left: 50%;
+transform: translateX(-50%);
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 15px solid rgba(255, 255, 255, 0.9);
+}
+
+.arrow-shape p {
+margin: 0;
+color: red;
+font-weight: bold;
+font-size: 1.1rem;
+}
+
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+40% { transform: translateY(-10px) translateX(-50%); }
+60% { transform: translateY(-5px) translateX(-50%); }
+}
+
+.entertainment-cta {
+margin-bottom: 20px;
+}
+
+.entertainment-slogan {
+font-size: 2.2rem;
+font-weight: bold;
+background: linear-gradient(45deg, #e83e8c, #fd7e14, #ffc107, #28a745);
+background-size: 300% 300%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+animation: gradientShift 3s ease-in-out infinite;
+margin: 0;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+@keyframes gradientShift {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+@keyframes textBounce {
+0%, 100% { transform: translateY(0) scale(1); }
+25% { transform: translateY(-5px) scale(1.02); }
+50% { transform: translateY(0) scale(1.05); }
+75% { transform: translateY(-3px) scale(1.02); }
+}
+
+@media (max-width: 768px) {
+.entertainment-slogan {
+font-size: 1.8rem;
+}
+}
+
+.subtitle {
+font-size: 1.7rem;
+margin: 8px 0 20px;
+}
+
+.countdown-section {
+background: linear-gradient(135deg, #ff0080, #ff8c00, #40e0d0, #9d00ff);
+background-size: 400% 400%;
+animation: gradientWave 5s ease infinite;
+color: white;
+text-align: center;
+padding: 80px 20px;
+}
+
+@keyframes gradientWave {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+.countdown {
+font-size: 3rem;
+font-weight: bold;
+letter-spacing: 10px;
+margin: 30px 0;
+}
+
+.countdown span {
+display: inline-block;
+min-width: 100px;
+background: linear-gradient(135deg, #ff1744, #f50057, #d500f9);
+padding: 20px 15px;
+border-radius: 16px;
+margin: 0 12px;
+box-shadow: 0 8px 20px rgba(255, 0, 128, 0.5);
+animation: colorPulse 3s infinite;
+border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+@keyframes colorPulse {
+0%, 100% { box-shadow: 0 8px 20px rgba(255, 0, 128, 0.5); }
+50% { box-shadow: 0 8px 30px rgba(255, 215, 0, 0.8); }
+}
+
+@keyframes pulse {
+0%   { transform: scale(1); }
+50%  { transform: scale(1.08); }
+100% { transform: scale(1); }
+}
+
+.countdown small {
+display: block;
+font-size: 1rem;
+margin-top: 10px;
+}
+
+nav {
+background-color: #222;
+padding: 15px;
+text-align: center;
+position: sticky;
+top: 0;
+z-index: 100;
+box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.hamburger {
+display: none;
+flex-direction: column;
+cursor: pointer;
+padding: 10px;
+}
+
+.hamburger span {
+width: 25px;
+height: 3px;
+background-color: white;
+margin: 3px 0;
+transition: 0.3s;
+}
+
+.nav-links {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+nav a {
+color: white;
+margin: 0 25px;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s;
+}
+
+nav a:hover { 
+color: #00d4ff; 
+}
+
+.container {
+max-width: 1200px;
+margin: 50px auto;
+padding: 0 20px;
+}
+
+section {
+background: white;
+padding: 50px;
+margin-bottom: 60px;
+border-radius: 16px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+opacity: 0;
+transform: translateY(60px);
+transition: all 0.9s ease-out;
+}
+
+section.visible {
+opacity: 1;
+transform: translateY(0);
+}
+
+h2 {
+color: #007bff;
+border-bottom: 4px solid #007bff;
+padding-bottom: 12px;
+margin-bottom: 30px;
+}
+
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 20px;
+margin-top: 40px;
+}
+
+.gallery img {
+width: 100%;
+aspect-ratio: 4/3;
+object-fit: cover;
+border-radius: 12px;
+box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+transition: all 0.4s ease;
+}
+
+.gallery img:hover {
+transform: scale(1.08) translateY(-10px);
+box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+.video-gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 20px;
+margin: 30px 0;
+}
+
+.video-gallery > div {
+position: relative;
+width: 100%;
+aspect-ratio: 16/9;
+border-radius: 12px;
+overflow: hidden;
+box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+transition: all 0.4s ease;
+}
+
+.video-gallery > div:hover {
+transform: scale(1.05) translateY(-5px);
+box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+.video-gallery video {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 12px;
+background: #000;
+}
+
+.video-gallery iframe {
+width: 100%;
+height: 100%;
+border-radius: 12px;
+box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+transition: all 0.4s ease;
+}
+
+.video-gallery iframe:hover {
+transform: scale(1.05) translateY(-5px);
+box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+form iframe {
+width: 100%;
+min-height: 900px;
+border: none;
+border-radius: 12px;
+}
+
+footer {
+background-color: #222;
+color: white;
+text-align: center;
+padding: 40px 20px;
+}
+
+@media (max-width: 768px) {
+header h1 { font-size: 3rem; }
+.logo-container { max-width: 180px; }
+.countdown { 
+font-size: 1.5rem;
+letter-spacing: 5px;
+}
+.countdown span {
+min-width: 70px;
+padding: 15px 10px;
+margin: 0 5px;
+}
+.countdown small {
+font-size: 0.8rem;
+}
+.hamburger {
+display: flex;
+}
+.nav-links {
+display: none;
+flex-direction: column;
+width: 100%;
+position: absolute;
+top: 60px;
+left: 0;
+background-color: #222;
+padding: 20px 0;
+}
+.nav-links.active {
+display: flex;
+}
+nav a {
+margin: 10px 0;
+font-size: 1rem;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+}
+.gallery {
+grid-template-columns: 1fr;
+gap: 15px;
+}
+.gallery img {
+aspect-ratio: 16/9;
+}
+.video-gallery {
+grid-template-columns: 1fr;
+gap: 15px;
+}
+.video-gallery > div {
+aspect-ratio: 16/9;
+}
+}
+
+@media (max-width: 480px) {
+.gallery {
+gap: 12px;
+}
+.video-gallery {
+gap: 12px;
+}
+section {
+padding: 30px 20px;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<!-- VISA Logo embedded here -->
+<div class="logo-container">
+<img src="https://iili.io/fUguOl9.jpg"
+alt="VISA - International Students Association, Vignan University">
+</div>
+<h1>International Fest 2K26</h1>
+<p class="subtitle">Presented by <strong>VISA</strong><br></p>
+<p>Join the celebration of cultures, fun, music, and sports!</p>
+<p><strong>Date:</strong> March 20, 2026  |  <strong>Location:</strong> Vignan University, Vadlamudi, Andhra Pradesh, India</p>
+
+<!-- Scroll Down Message -->
+<div class="scroll-down">
+<div class="arrow-shape">
+<p>Scroll Down</p>
+</div>
+</div>
+</header>
+
+<div class="countdown-section">
+<h2>We're Starting In...</h2>
+<div id="countdown" class="countdown">
+<span><span id="days">00</span><small>Days</small></span>
+<span><span id="hours">00</span><small>Hours</small></span>
+<span><span id="minutes">00</span><small>Minutes</small></span>
+<span><span id="seconds">00</span><small>Seconds</small></span>
+</div>
+<p>Get ready for an unforgettable international experience! 🎉</p>
+</div>
+
+<nav>
+<div class="hamburger" id="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div class="nav-links" id="navLinks">
+<a href="#about">About</a>
+<a href="#activities">Fun Activities</a>
+<a href="#entertainment">Entertainment</a>
+<a href="#sports">Sports Registration</a>
+</div>
+</nav>
+
+<div class="container">
+
+<section id="about">
+<h2>About VISA</h2>
+<p>VISA (Vignan International Students Association) is a student-led organization at Vignan University that celebrates cultural diversity and brings together students from across the world through events, workshops, and community activities.</p>
+</section>
+
+<section id="activities">
+<h2>Fun Activities</h2>
+<p>Dive into hands-on cultural workshops, wacky games, and interactive shenanigans from around the world—fusion-style, with a hilarious twist!</p>
+<div class="gallery">
+<img src="entertainment-1.JPG" alt="Fun activity 1" loading="lazy">
+<img src="entertainment-2.JPG" alt="Fun activity 2" loading="lazy">
+<img src="entertainment-3.JPG" alt="Fun activity 3" loading="lazy">
+</div>
+</section>
+
+<section id="entertainment">
+<h2>Entertainment</h2>
+<p>Live music, dance performances, international artists, and electrifying shows await you!</p>
+<div class="gallery">
+<img src="entertainment-4.JPG" alt="Entertainment event 4" loading="lazy">
+<img src="entertainment-5.JPG" alt="Entertainment event 5" loading="lazy">
+<img src="entertainment-6.jpeg" alt="Entertainment event 6" loading="lazy">
+<img src="entertainment-7.jpeg" alt="Entertainment event 7" loading="lazy">
+</div>
+
+<!-- Entertainment Call to Action -->
+<div style="text-align: center; margin-top: 40px;">
+<div class="entertainment-cta">
+<h3 class="entertainment-slogan">Dance it. Sing it. Slay it. Register today!</h3>
+</div>
+<button id="entertainmentRegisterBtn" style="background: linear-gradient(135deg, #e83e8c, #fd7e14); color: white; padding: 15px 30px; border: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: all 0.3s ease; min-width: 250px; margin-top: 20px;">
+Register for Entertainment Events
+</button>
+
+<!-- Entertainment Categories Selection -->
+<div id="entertainmentCategoriesSelection" style="display: none; margin-top: 30px;">
+<h3 style="color: #e83e8c; margin-bottom: 25px;">Select Entertainment Category</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto;">
+<button class="entertainmentCategoryBtn" data-category="Music Performances" style="background: linear-gradient(135deg, #ff6b6b, #ee5a6f); color: white; padding: 20px; border: none; border-radius: 15px; font-size: 1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; text-align: left;">
+<div style="font-size: 1.2rem; margin-bottom: 8px;">🎵 Music Performances</div>
+<div style="font-size: 0.85rem; font-weight: normal; opacity: 0.9; line-height: 1.4;">Solo/group singing, instrumental, bands</div>
+</button>
+<button class="entertainmentCategoryBtn" data-category="Dance Performances" style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 20px; border: none; border-radius: 15px; font-size: 1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; text-align: left;">
+<div style="font-size: 1.2rem; margin-bottom: 8px;">💃 Dance Performances</div>
+<div style="font-size: 0.85rem; font-weight: normal; opacity: 0.9; line-height: 1.4;">Solo dance, group dance</div>
+</button>
+<button class="entertainmentCategoryBtn" data-category="Cultural Showcases" style="background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; padding: 20px; border: none; border-radius: 15px; font-size: 1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; text-align: left;">
+<div style="font-size: 1.2rem; margin-bottom: 8px;">🌍 Cultural Showcases</div>
+<div style="font-size: 0.85rem; font-weight: normal; opacity: 0.9; line-height: 1.4;">Traditional performances, cultural displays</div>
+</button>
+<button class="entertainmentCategoryBtn" data-category="Comedy & Entertainment" style="background: linear-gradient(135deg, #ffd89b, #19547b); color: white; padding: 20px; border: none; border-radius: 15px; font-size: 1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; text-align: left;">
+<div style="font-size: 1.2rem; margin-bottom: 8px;">😂 Comedy & Entertainment</div>
+<div style="font-size: 0.85rem; font-weight: normal; opacity: 0.9; line-height: 1.4;">Open mic, roast battles, improv, ventriloquism</div>
+</button>
+<button class="entertainmentCategoryBtn" data-category="Spoken Word & Literary" style="background: linear-gradient(135deg, #a8edea, #fed6e3); color: #333; padding: 20px; border: none; border-radius: 15px; font-size: 1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; text-align: left;">
+<div style="font-size: 1.2rem; margin-bottom: 8px;">🎤 Spoken Word & Literary</div>
+<div style="font-size: 0.85rem; font-weight: normal; opacity: 0.8; line-height: 1.4;">Poetry slam, rap battles, storytelling, debates</div>
+</button>
+<button class="entertainmentCategoryBtn" data-category="Visual & Specialty Acts" style="background: linear-gradient(135deg, #fa709a, #fee140); color: white; padding: 20px; border: none; border-radius: 15px; font-size: 1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; text-align: left;">
+<div style="font-size: 1.2rem; margin-bottom: 8px;">🎨 Visual & Specialty Acts</div>
+<div style="font-size: 0.85rem; font-weight: normal; opacity: 0.9; line-height: 1.4;">Magic, mime, live art, unique performances</div>
+</button>
+<button class="entertainmentCategoryBtn" data-category="Fashion Shows" style="background: linear-gradient(135deg, #30cfd0, #330867); color: white; padding: 20px; border: none; border-radius: 15px; font-size: 1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; text-align: left;">
+<div style="font-size: 1.2rem; margin-bottom: 8px;">👗 Fashion Shows</div>
+<div style="font-size: 0.85rem; font-weight: normal; opacity: 0.9; line-height: 1.4;">Runway modeling, fashion presentations</div>
+</button>
+<button class="entertainmentCategoryBtn" data-category="Others" style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 20px; border: none; border-radius: 15px; font-size: 1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; text-align: left;">
+<div style="font-size: 1.2rem; margin-bottom: 8px;">✨ Others</div>
+<div style="font-size: 0.85rem; font-weight: normal; opacity: 0.9; line-height: 1.4;">Any other creative performances</div>
+</button>
+</div>
+<button id="backToEntertainmentBtn" style="background: #6c757d; color: white; padding: 8px 20px; border: none; border-radius: 15px; font-size: 0.9rem; cursor: pointer; margin-top: 20px;">
+← Back
+</button>
+</div>
+</div>
+</section>
+
+<section id="sports">
+<h2>Sports & Competitions</h2>
+<p>Show your skills or cheer for participants in friendly international sports events!</p>
+
+<!-- Video Gallery - Girls Basketball -->
+<div class="video-gallery">
+<div>
+<video controls preload="none" loading="lazy" muted loop playsinline>
+<source src="C5569.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+</div>
+
+<!-- Sports Image Gallery -->
+<div class="gallery" style="margin-top: 40px;">
+<img src="sports-1.JPG" alt="Sports event" loading="lazy">
+</div>
+
+
+
+
+
+<div style="text-align: center; margin-top: 30px;">
+<h3 style="color: #007bff; margin-bottom: 25px;">Choose Your Registration Type</h3>
+<div id="registrationStep1" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<button id="teamSportsBtn" style="background: linear-gradient(135deg, #28a745, #20c997); color: white; padding: 15px 30px; border: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: all 0.3s ease; min-width: 200px;">
+Team Sports
+</button>
+<button id="individualSportsBtn" style="background: linear-gradient(135deg, #fd7e14, #e83e8c); color: white; padding: 15px 30px; border: none; border-radius: 25px; font-size: 1.2rem; font-weight: bold; cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: all 0.3s ease; min-width: 200px;">
+Individual Sports
+</button>
+</div>
+
+<!-- Team Sports Selection -->
+<div id="teamSportsSelection" style="display: none; margin-top: 30px;">
+<h3 style="color: #28a745; margin-bottom: 25px;">Select Team Sport</h3>
+<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+<button id="footballBtn" style="background: linear-gradient(135deg, #007bff, #0056b3); color: white; padding: 12px 25px; border: none; border-radius: 20px; font-size: 1.1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; min-width: 150px;">
+Football
+</button>
+<button id="volleyballBtn" style="background: linear-gradient(135deg, #ffc107, #e0a800); color: white; padding: 12px 25px; border: none; border-radius: 20px; font-size: 1.1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; min-width: 150px;">
+Volleyball
+</button>
+<button id="basketballBtn" style="background: linear-gradient(135deg, #dc3545, #c82333); color: white; padding: 12px 25px; border: none; border-radius: 20px; font-size: 1.1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; min-width: 150px;">
+Basketball
+</button>
+</div>
+<button id="backToMainBtn" style="background: #6c757d; color: white; padding: 8px 20px; border: none; border-radius: 15px; font-size: 0.9rem; cursor: pointer; margin-top: 20px;">
+← Back
+</button>
+</div>
+
+<!-- Individual Sports Selection -->
+<div id="individualSportsSelection" style="display: none; margin-top: 30px;">
+<h3 style="color: #fd7e14; margin-bottom: 25px;">Select Individual Sport</h3>
+<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+<button id="chessBtn" style="background: linear-gradient(135deg, #6f42c1, #5a32a3); color: white; padding: 12px 25px; border: none; border-radius: 20px; font-size: 1.1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease; min-width: 150px;">
+Chess
+</button>
+</div>
+<button id="backToMainBtn2" style="background: #6c757d; color: white; padding: 8px 20px; border: none; border-radius: 15px; font-size: 0.9rem; cursor: pointer; margin-top: 20px;">
+← Back
+</button>
+</div>
+
+<!-- Sport Details Modal -->
+<div id="sportDetailsModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; justify-content: center; align-items: center;">
+<div style="background: white; padding: 40px; border-radius: 20px; max-width: 500px; margin: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+<h3 id="sportTitle" style="color: #007bff; margin-bottom: 20px;"></h3>
+<div id="sportDetails" style="font-size: 1.1rem; margin-bottom: 30px; line-height: 1.6;"></div>
+<div style="display: flex; gap: 15px; justify-content: center;">
+<button id="proceedToFormBtn" style="background: linear-gradient(135deg, #28a745, #20c997); color: white; padding: 12px 25px; border: none; border-radius: 20px; font-size: 1.1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+Proceed to Registration
+</button>
+<button id="closeModalBtn" style="background: #6c757d; color: white; padding: 12px 25px; border: none; border-radius: 20px; font-size: 1.1rem; cursor: pointer;">
+Cancel
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+
+<footer>
+<p>© 2026 International Fest • Hosted by Vignan University, Vadlamudi </p>
+<p>Contact: +91 8688873129</p>
+<p style="margin-top: 15px;">
+<a href="https://www.instagram.com/visa_vfstr" target="_blank" rel="noopener noreferrer" style="color: #E1306C; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; transition: opacity 0.3s;">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle;">
+<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+</svg>
+Follow @visa_vfstr for updates
+</a>
+</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script>
+// Event start: March 20, 2026, 09:00 AM
+const eventDate = new Date("March 20, 2026 09:00:00").getTime();
+
+const countdown = setInterval(() => {
+const now = new Date().getTime();
+const distance = eventDate - now;
+
+const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+document.getElementById("days").innerText = String(days).padStart(2, '0');
+document.getElementById("hours").innerText = String(hours).padStart(2, '0');
+document.getElementById("minutes").innerText = String(minutes).padStart(2, '0');
+document.getElementById("seconds").innerText = String(seconds).padStart(2, '0');
+
+if (distance < 0) {
+clearInterval(countdown);
+document.getElementById("countdown").innerHTML = "<h2 style='color:#ffd700; font-size:3.5rem;'>The Fest Has Begun! 🎉🔥</h2>";
+
+const duration = 5 * 1000;
+const end = Date.now() + duration;
+
+(function frame() {
+confetti({ particleCount: 7, angle: 60, spread: 55, origin: { x: 0 } });
+confetti({ particleCount: 7, angle: 120, spread: 55, origin: { x: 1 } });
+if (Date.now() < end) requestAnimationFrame(frame);
+}());
+}
+}, 1000);
+
+const sections = document.querySelectorAll('section');
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) entry.target.classList.add('visible');
+});
+}, { threshold: 0.1 });
+
+sections.forEach(section => observer.observe(section));
+
+// Fade out scroll-down button after first scroll
+let hasScrolled = false;
+window.addEventListener('scroll', function() {
+if (!hasScrolled && window.scrollY > 50) {
+hasScrolled = true;
+const scrollDown = document.querySelector('.scroll-down');
+if (scrollDown) {
+scrollDown.style.transition = 'opacity 0.5s ease-out';
+scrollDown.style.opacity = '0';
+setTimeout(() => {
+scrollDown.style.display = 'none';
+}, 500);
+}
+}
+});
+
+// Multi-step sports registration
+document.getElementById('teamSportsBtn').addEventListener('click', function() {
+document.getElementById('registrationStep1').style.display = 'none';
+document.getElementById('teamSportsSelection').style.display = 'block';
+});
+
+document.getElementById('individualSportsBtn').addEventListener('click', function() {
+document.getElementById('registrationStep1').style.display = 'none';
+document.getElementById('individualSportsSelection').style.display = 'block';
+});
+
+// Entertainment registration
+document.getElementById('entertainmentRegisterBtn').addEventListener('click', function() {
+document.querySelector('.entertainment-cta').style.display = 'none';
+document.getElementById('entertainmentRegisterBtn').style.display = 'none';
+document.getElementById('entertainmentCategoriesSelection').style.display = 'block';
+});
+
+document.getElementById('backToEntertainmentBtn').addEventListener('click', function() {
+document.getElementById('entertainmentCategoriesSelection').style.display = 'none';
+document.querySelector('.entertainment-cta').style.display = 'block';
+document.getElementById('entertainmentRegisterBtn').style.display = 'inline-block';
+});
+
+// Entertainment category selection handlers
+document.querySelectorAll('.entertainmentCategoryBtn').forEach(button => {
+button.addEventListener('click', function() {
+const category = this.getAttribute('data-category');
+// Open the Google Form with the selected category pre-filled
+const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSc2kqpYH7I7oYudg7znURNS5tuxqSU7F10opUYkUmHt_48yCA/viewform?usp=pp_url&entry.1461495761=' + encodeURIComponent(category);
+window.open(formUrl, '_blank');
+// Reset the view
+document.getElementById('entertainmentCategoriesSelection').style.display = 'none';
+document.querySelector('.entertainment-cta').style.display = 'block';
+document.getElementById('entertainmentRegisterBtn').style.display = 'inline-block';
+});
+});
+
+document.getElementById('backToMainBtn').addEventListener('click', function() {
+document.getElementById('teamSportsSelection').style.display = 'none';
+document.getElementById('registrationStep1').style.display = 'flex';
+});
+
+document.getElementById('backToMainBtn2').addEventListener('click', function() {
+document.getElementById('individualSportsSelection').style.display = 'none';
+document.getElementById('registrationStep1').style.display = 'flex';
+});
+
+// Team sport selection handlers
+document.getElementById('footballBtn').addEventListener('click', function() {
+showSportDetails('Football', '₹1,000 per team<br>Maximum 18 players per team', 'team');
+});
+
+document.getElementById('volleyballBtn').addEventListener('click', function() {
+showSportDetails('Volleyball', '₹400 per team<br>Maximum 8 players per team', 'team');
+});
+
+document.getElementById('basketballBtn').addEventListener('click', function() {
+showSportDetails('Basketball', 'Registration fee: TBD<br>Maximum players per team: TBD', 'team');
+});
+
+// Individual sport selection handlers
+document.getElementById('chessBtn').addEventListener('click', function() {
+showSportDetails('Chess', '₹50 per participant<br>Individual competition', 'individual');
+});
+
+function showSportDetails(sport, details, sportType) {
+document.getElementById('sportTitle').textContent = sport + ' Registration';
+document.getElementById('sportDetails').innerHTML = '<strong>Registration Details:</strong><br><br>' + details;
+document.getElementById('sportDetailsModal').style.display = 'flex';
+document.getElementById('proceedToFormBtn').setAttribute('data-sport-type', sportType);
+}
+
+document.getElementById('proceedToFormBtn').addEventListener('click', function() {
+const sportType = this.getAttribute('data-sport-type');
+if (sportType === 'team') {
+// Team sports form
+window.open('https://docs.google.com/forms/d/e/1FAIpQLScptxd9d9oEFZxtOuVSF6Rq3KCFdWDRDJzu5Rf-jE-SfqXXQQ/viewform', '_blank');
+} else if (sportType === 'individual') {
+// Individual sports form
+window.open('https://docs.google.com/forms/d/e/1FAIpQLSeKyBVjIn-bJqvwMbAx9gxHXGB2q3B__YXBNgwP7vkrYpyEuQ/viewform', '_blank');
+}
+document.getElementById('sportDetailsModal').style.display = 'none';
+});
+
+document.getElementById('closeModalBtn').addEventListener('click', function() {
+document.getElementById('sportDetailsModal').style.display = 'none';
+});
+
+// Close modal when clicking outside
+document.getElementById('sportDetailsModal').addEventListener('click', function(e) {
+if (e.target === this) {
+this.style.display = 'none';
+}
+});
+
+// Hamburger menu toggle
+document.getElementById('hamburger').addEventListener('click', function() {
+const navLinks = document.getElementById('navLinks');
+navLinks.classList.toggle('active');
+});
+
+// Close menu when clicking a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+link.addEventListener('click', function() {
+document.getElementById('navLinks').classList.remove('active');
+});
+});
+</script>
+
+</body>
+</html>
